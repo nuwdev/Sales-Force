@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2E7C47D1452187200D98517 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E7C47C1452187200D98517 /* UIKit.framework */; };
+		E2E7C47F1452187200D98517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E7C47E1452187200D98517 /* Foundation.framework */; };
+		E2E7C4811452187200D98517 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E7C4801452187200D98517 /* CoreGraphics.framework */; };
+		E2E7C4831452187200D98517 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E7C4821452187200D98517 /* CoreData.framework */; };
+		E2E7C4891452187200D98517 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2E7C4871452187200D98517 /* InfoPlist.strings */; };
+		E2E7C48B1452187200D98517 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E7C48A1452187200D98517 /* main.m */; };
+		E2E7C48F1452187200D98517 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E7C48E1452187200D98517 /* AppDelegate.m */; };
+		E2E7C4921452187200D98517 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E7C4901452187200D98517 /* MainStoryboard.storyboard */; };
+		E2E7C4951452187200D98517 /* SalesForce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2E7C4931452187200D98517 /* SalesForce.xcdatamodeld */; };
+		E2E7C4981452187200D98517 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E7C4971452187200D98517 /* MasterViewController.m */; };
+		E2E7C49B1452187200D98517 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E7C49A1452187200D98517 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2E7C4781452187200D98517 /* SalesForce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesForce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2E7C47C1452187200D98517 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2E7C47E1452187200D98517 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2E7C4801452187200D98517 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2E7C4821452187200D98517 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E2E7C4861452187200D98517 /* SalesForce-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SalesForce-Info.plist"; sourceTree = "<group>"; };
+		E2E7C4881452187200D98517 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2E7C48A1452187200D98517 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2E7C48C1452187200D98517 /* SalesForce-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SalesForce-Prefix.pch"; sourceTree = "<group>"; };
+		E2E7C48D1452187200D98517 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2E7C48E1452187200D98517 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2E7C4911452187200D98517 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E2E7C4941452187200D98517 /* SalesForce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SalesForce.xcdatamodel; sourceTree = "<group>"; };
+		E2E7C4961452187200D98517 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E2E7C4971452187200D98517 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E2E7C4991452187200D98517 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E2E7C49A1452187200D98517 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2E7C4751452187100D98517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E7C47D1452187200D98517 /* UIKit.framework in Frameworks */,
+				E2E7C47F1452187200D98517 /* Foundation.framework in Frameworks */,
+				E2E7C4811452187200D98517 /* CoreGraphics.framework in Frameworks */,
+				E2E7C4831452187200D98517 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2E7C46D1452187100D98517 = {
+			isa = PBXGroup;
+			children = (
+				E2E7C4841452187200D98517 /* SalesForce */,
+				E2E7C47B1452187200D98517 /* Frameworks */,
+				E2E7C4791452187200D98517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2E7C4791452187200D98517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2E7C4781452187200D98517 /* SalesForce.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2E7C47B1452187200D98517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2E7C47C1452187200D98517 /* UIKit.framework */,
+				E2E7C47E1452187200D98517 /* Foundation.framework */,
+				E2E7C4801452187200D98517 /* CoreGraphics.framework */,
+				E2E7C4821452187200D98517 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2E7C4841452187200D98517 /* SalesForce */ = {
+			isa = PBXGroup;
+			children = (
+				E2E7C48D1452187200D98517 /* AppDelegate.h */,
+				E2E7C48E1452187200D98517 /* AppDelegate.m */,
+				E2E7C4901452187200D98517 /* MainStoryboard.storyboard */,
+				E2E7C4961452187200D98517 /* MasterViewController.h */,
+				E2E7C4971452187200D98517 /* MasterViewController.m */,
+				E2E7C4991452187200D98517 /* DetailViewController.h */,
+				E2E7C49A1452187200D98517 /* DetailViewController.m */,
+				E2E7C4931452187200D98517 /* SalesForce.xcdatamodeld */,
+				E2E7C4851452187200D98517 /* Supporting Files */,
+			);
+			path = SalesForce;
+			sourceTree = "<group>";
+		};
+		E2E7C4851452187200D98517 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2E7C4861452187200D98517 /* SalesForce-Info.plist */,
+				E2E7C4871452187200D98517 /* InfoPlist.strings */,
+				E2E7C48A1452187200D98517 /* main.m */,
+				E2E7C48C1452187200D98517 /* SalesForce-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2E7C4771452187100D98517 /* SalesForce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2E7C49E1452187200D98517 /* Build configuration list for PBXNativeTarget "SalesForce" */;
+			buildPhases = (
+				E2E7C4741452187100D98517 /* Sources */,
+				E2E7C4751452187100D98517 /* Frameworks */,
+				E2E7C4761452187100D98517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalesForce;
+			productName = SalesForce;
+			productReference = E2E7C4781452187200D98517 /* SalesForce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2E7C46F1452187100D98517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E2E7C4721452187100D98517 /* Build configuration list for PBXProject "SalesForce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2E7C46D1452187100D98517;
+			productRefGroup = E2E7C4791452187200D98517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2E7C4771452187100D98517 /* SalesForce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2E7C4761452187100D98517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E7C4891452187200D98517 /* InfoPlist.strings in Resources */,
+				E2E7C4921452187200D98517 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2E7C4741452187100D98517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E7C48B1452187200D98517 /* main.m in Sources */,
+				E2E7C48F1452187200D98517 /* AppDelegate.m in Sources */,
+				E2E7C4951452187200D98517 /* SalesForce.xcdatamodeld in Sources */,
+				E2E7C4981452187200D98517 /* MasterViewController.m in Sources */,
+				E2E7C49B1452187200D98517 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2E7C4871452187200D98517 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2E7C4881452187200D98517 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E2E7C4901452187200D98517 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2E7C4911452187200D98517 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2E7C49C1452187200D98517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E2E7C49D1452187200D98517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2E7C49F1452187200D98517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SalesForce/SalesForce-Prefix.pch";
+				INFOPLIST_FILE = "SalesForce/SalesForce-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2E7C4A01452187200D98517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SalesForce/SalesForce-Prefix.pch";
+				INFOPLIST_FILE = "SalesForce/SalesForce-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2E7C4721452187100D98517 /* Build configuration list for PBXProject "SalesForce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E7C49C1452187200D98517 /* Debug */,
+				E2E7C49D1452187200D98517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2E7C49E1452187200D98517 /* Build configuration list for PBXNativeTarget "SalesForce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E7C49F1452187200D98517 /* Debug */,
+				E2E7C4A01452187200D98517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2E7C4931452187200D98517 /* SalesForce.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2E7C4941452187200D98517 /* SalesForce.xcdatamodel */,
+			);
+			currentVersion = E2E7C4941452187200D98517 /* SalesForce.xcdatamodel */;
+			path = SalesForce.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2E7C46F1452187100D98517 /* Project object */;
+}
